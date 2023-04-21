@@ -9,6 +9,7 @@
 
 a {
     text-decoration: none;
+    color: var(--white);
 }
 
 li {
@@ -19,6 +20,15 @@ li {
     --black: #000000;
     --white: #ffffff;
     --red: #CD3939;
+    --mont: 'Montserrat';
+    --haur: 'Hauora';
+}
+
+body {
+    background: var(--black);
+    font-family: var(--haur);
+    font-weight: 400;
+    color: var(--white);
 }
 
 .container {
@@ -27,6 +37,122 @@ li {
     margin: 0 auto;
     width: 100%;
 }
+
 /* header */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 50px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_link {
+    font-size: 14px;
+    line-height: 19px;
+    color: #636363;
+}
+
+.nav_btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 14px 32px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+}
+
+.header_nft {
+    background: var(--red);
+    padding: 17px 27px;
+    border-radius: 14px;
+}
+
+.header_nft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.header_nft-title {
+    max-width: 420px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.header_nft-link {
+    background: var(--white);
+    color: var(--red);
+    padding: 17px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 11px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.header_intro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    max-height: 485px;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.intro_item {
+    max-width: 555px;
+}
+
+.intro_img {
+    position: absolute;
+    top: 0;
+    right: -115px;
+    z-index: -1;
+}
+
+.intro_title {
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 101.5%;
+    padding-bottom: 32px;
+}
+
+.intro_subtitle {
+    font-family: var(--mont);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    padding-bottom: 40px;
+}
+
+.intro_link {
+    padding: 14px 25px 14px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 11px;
+    background: var(--red);
+    display: inline-block;
+    margin-bottom: 32px;
+}
+
+.intro_link img {
+    padding-right: 15px;
+}
+
+.intro_txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: var(--mont);
+    max-width: 495px;
+}
 
 /* header */
