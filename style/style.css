@@ -342,10 +342,41 @@ a:hover {
 
 .swiper {
     width: 100%;
-    height: 430px;
+    margin-bottom: 70px;
+    /* position: absolute;
+    left: 0; */
 }
 
 .swiper-wrapper {
     display: flex;
+    justify-content: center;
+    gap: 30px;
 }
+
+.swiper-slide {
+    max-width: 350px;
+    background: linear-gradient(360deg, #171717 -2.58%, #010101 91.03%);
+    border-radius: 12px;
+}
+
+.swiper_img {
+    width: 100%;
+    max-height: 330px;
+}
+
+.blox {
+    padding: 17px 0 20px 23px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: var(--mont);
+}
+
+.blox-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: var(--mont);
+}
+
 /* section-discover */
