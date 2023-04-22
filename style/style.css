@@ -380,3 +380,54 @@ a:hover {
 }
 
 /* section-discover */
+/* section-cryptographic */
+.cryptographic .container {
+    display: grid;
+    grid-template-columns: 585px 350px;
+    justify-content: space-between;
+    padding: 45px 30px;
+    background: var(--red);
+    border-radius: 25px;
+    margin-bottom: 85px;
+}
+
+.cryptographic-slide {
+    width: 100%;
+}
+
+.item_title {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 117.5%;
+    font-family: var(--mont);
+    padding-bottom: 20px;
+}
+
+.item_subtitle {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: var(--mont);
+    padding-bottom: 65px;
+}
+
+.item_block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 380px;
+    text-align: center;
+}
+
+.block_item-title {
+    padding-bottom: 15px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 32px;
+    text-align: center;
+}
+
+/* section-cryptographic */
