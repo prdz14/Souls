@@ -431,3 +431,38 @@ a:hover {
 }
 
 /* section-cryptographic */
+/* section-fusion */
+.fusion .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fusion_link {
+    margin-bottom: 0;
+    max-width: max-content;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: var(--haur);
+}
+
+.fusion_block {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 117.5%;
+    font-family: var(--mont);
+}
+
+.fusion_txt {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: var(--mont);
+    max-width: 540px;
+}
+
+/* section-fusion */
