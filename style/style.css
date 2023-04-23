@@ -25,6 +25,10 @@ li {
     --haur: 'Hauora';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--black);
     font-family: var(--haur);
