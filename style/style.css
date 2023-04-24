@@ -519,6 +519,11 @@ a:hover {
     height: 45px;
 }
 
+.screen {
+    margin: auto;
+    display: flex;
+}
+
 /* section-questions */
 /* section-road-map */
 .roadmap .container {

@@ -4,6 +4,14 @@
     .intro_img {
         right: -50px;
     }
+
+    .screen {
+        width: 900px;
+    }
+
+    .questions_accordions {
+        justify-content: center;
+    }
 }
 
 @media (max-width:1024px) {
@@ -70,13 +78,19 @@
     .fusion_txt {
         text-align: center;
     }
-    .fusion_block{
+
+    .fusion_block {
         text-align: center;
         align-items: center;
     }
+
 }
 
-@media (max-width:992px) {}
+@media (max-width:992px) {
+    .screen {
+        width: 600px;
+    }
+}
 
 @media (max-width:768px) {
     .nav_list {
@@ -137,6 +151,10 @@
     .mint_grid-item {
         max-width: 305px;
     }
+
+    .screen {
+        width: 400px;
+    }
 }
 
 @media (max-width:586px) {
@@ -183,6 +201,15 @@
 
     .item_title {
         font-size: 34px;
+    }
+
+    .questions_title {
+        font-size: 48px;
+        line-height: 139.5%;
+    }
+
+    .screen {
+        width: 300px;
     }
 }
 
