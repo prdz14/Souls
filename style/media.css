@@ -36,6 +36,31 @@
         margin: auto;
     }
 
+    .cryptographic .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cryptographic_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item_title {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .item_block {
+        justify-content: center;
+    }
+
+    .item_subtitle {
+        text-align: center;
+    }
 }
 
 @media (max-width:992px) {}
@@ -134,8 +159,17 @@
         align-items: center;
         gap: 15px;
     }
-    .option_block-title{
+
+    .option_block-title {
         max-width: unset;
+    }
+
+    .block_item_title {
+        font-size: 42px;
+    }
+
+    .item_title {
+        font-size: 34px;
     }
 }
 
