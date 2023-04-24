@@ -44,6 +44,10 @@ body {
 }
 
 /* header */
+.header {
+    position: relative;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -146,6 +150,8 @@ body {
     background: var(--red);
     display: inline-block;
     margin-bottom: 32px;
+    font-size: 14px;
+    line-height: 19px;
 }
 
 .intro_link img {
@@ -692,3 +698,28 @@ a:hover {
 }
 
 /* footer */
+.media {
+    display: none;
+}
+
+/* burger */
+.burger {
+    display: none;
+    flex-direction: column;
+    align-items: end;
+    gap: 6px;
+}
+
+.line {
+    width: 22px;
+    height: 2px;
+    background: var(--white);
+}
+
+.line:nth-of-type(3) {
+    width: 11px;
+}
+
+.active {
+    display: flex;
+}

@@ -1,3 +1,12 @@
+// burger
+const burger = document.querySelector(".burger"),
+  list = document.querySelector(".nav_list");
+
+burger.addEventListener("click", () => {
+  list.classList.toggle("active");
+});
+// burger
+
 // const swiper = new Swiper(".swiper", {
 //   direction: "horizontal",
 //   loop: true,
