@@ -61,6 +61,19 @@
     .item_subtitle {
         text-align: center;
     }
+
+    .fusion .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .fusion_txt {
+        text-align: center;
+    }
+    .fusion_block{
+        text-align: center;
+        align-items: center;
+    }
 }
 
 @media (max-width:992px) {}
