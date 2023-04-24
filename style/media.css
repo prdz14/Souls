@@ -12,6 +12,28 @@
     .questions_accordions {
         justify-content: center;
     }
+
+    .roadmap_grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .roadmap_big {
+        max-width: 450px;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .roadmap_small {
+        max-width: 350px;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
 }
 
 @media (max-width:1024px) {
@@ -155,6 +177,10 @@
     .screen {
         width: 400px;
     }
+
+    .frame {
+        max-width: 400px;
+    }
 }
 
 @media (max-width:586px) {
@@ -210,6 +236,10 @@
 
     .screen {
         width: 300px;
+    }
+
+    .frame {
+        max-width: 300px;
     }
 }
 
